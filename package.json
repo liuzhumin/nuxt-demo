@@ -1,0 +1,31 @@
+{
+  "name": "my-nuxt-demo",
+  "version": "1.0.0",
+  "description": "My delightful Nuxt.js project",
+  "author": "liuzhumin",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env MODE=dev nuxt",
+    "build": "cross-env MODE=pro nuxt build",
+    "start": " cross-env MODE=pro nuxt start",
+    "generate": "cross-env MODE=pro nuxt generate",
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "cookieparser": "^0.1.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.6",
+    "js-cookie": "^2.2.0",
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "^5.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
